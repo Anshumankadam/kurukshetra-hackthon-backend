@@ -1,0 +1,14 @@
+{
+  "name": "kurukshetra-hackthon-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for SkillGap Buster career-coaching hackathon app",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^4.21.2" }
+}
